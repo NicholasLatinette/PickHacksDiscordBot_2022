@@ -27,7 +27,7 @@ def choose_time():
 @task.loop(seconds=10)
 async def time():
     channel = client.get_channel(962122924893040714)
-    await channel.send('@everyone Posture check!')
+    await channel.send('@Pcheckers Posture check!')
 
 @client.event
 async def on_ready():
